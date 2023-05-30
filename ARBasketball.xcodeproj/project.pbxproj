@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		656FA2452A2595E6003541D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2442A2595E6003541D1 /* ContentView.swift */; };
+		656FA2472A2595E6003541D1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2462A2595E6003541D1 /* Experience.rcproject */; };
+		656FA2492A2595E7003541D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656FA2482A2595E7003541D1 /* Assets.xcassets */; };
+		656FA24C2A2595E7003541D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656FA24B2A2595E7003541D1 /* Preview Assets.xcassets */; };
+		656FA2562A2595E7003541D1 /* ARBasketballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2552A2595E7003541D1 /* ARBasketballTests.swift */; };
+		656FA2602A2595E7003541D1 /* ARBasketballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA25F2A2595E7003541D1 /* ARBasketballUITests.swift */; };
+		656FA2622A2595E7003541D1 /* ARBasketballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2612A2595E7003541D1 /* ARBasketballUITestsLaunchTests.swift */; };
+		656FA2702A25965C003541D1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA26F2A25965C003541D1 /* HomeView.swift */; };
+		656FA2722A25966B003541D1 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2712A25966B003541D1 /* PlayView.swift */; };
+		656FA2752A259697003541D1 /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2742A259697003541D1 /* CustomARView.swift */; };
+		656FA2772A2596A1003541D1 /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2762A2596A1003541D1 /* CustomARViewRepresentable.swift */; };
+		656FA2792A2596A8003541D1 /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2782A2596A8003541D1 /* ARManager.swift */; };
+		656FA27B2A2596AF003541D1 /* ARActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA27A2A2596AF003541D1 /* ARActions.swift */; };
+		656FA27D2A2596F1003541D1 /* ARBasketballApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA27C2A2596F1003541D1 /* ARBasketballApp.swift */; };
+		656FA2802A259758003541D1 /* BasketHoop.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 656FA27F2A259758003541D1 /* BasketHoop.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		656FA2522A2595E7003541D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656FA2372A2595E6003541D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656FA23E2A2595E6003541D1;
+			remoteInfo = ARBasketball;
+		};
+		656FA25C2A2595E7003541D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 656FA2372A2595E6003541D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 656FA23E2A2595E6003541D1;
+			remoteInfo = ARBasketball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		656FA23F2A2595E6003541D1 /* ARBasketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBasketball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		656FA2442A2595E6003541D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		656FA2462A2595E6003541D1 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		656FA2482A2595E7003541D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		656FA24B2A2595E7003541D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		656FA2512A2595E7003541D1 /* ARBasketballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARBasketballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		656FA2552A2595E7003541D1 /* ARBasketballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBasketballTests.swift; sourceTree = "<group>"; };
+		656FA25B2A2595E7003541D1 /* ARBasketballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARBasketballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		656FA25F2A2595E7003541D1 /* ARBasketballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBasketballUITests.swift; sourceTree = "<group>"; };
+		656FA2612A2595E7003541D1 /* ARBasketballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBasketballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		656FA26F2A25965C003541D1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		656FA2712A25966B003541D1 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		656FA2742A259697003541D1 /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
+		656FA2762A2596A1003541D1 /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
+		656FA2782A2596A8003541D1 /* ARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
+		656FA27A2A2596AF003541D1 /* ARActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARActions.swift; sourceTree = "<group>"; };
+		656FA27C2A2596F1003541D1 /* ARBasketballApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARBasketballApp.swift; sourceTree = "<group>"; };
+		656FA27F2A259758003541D1 /* BasketHoop.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = BasketHoop.usdz; path = ../../../../../Downloads/BasketHoop.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		656FA23C2A2595E6003541D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656FA24E2A2595E7003541D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656FA2582A2595E7003541D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		656FA2362A2595E6003541D1 = {
+			isa = PBXGroup;
+			children = (
+				656FA2412A2595E6003541D1 /* ARBasketball */,
+				656FA2542A2595E7003541D1 /* ARBasketballTests */,
+				656FA25E2A2595E7003541D1 /* ARBasketballUITests */,
+				656FA2402A2595E6003541D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		656FA2402A2595E6003541D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				656FA23F2A2595E6003541D1 /* ARBasketball.app */,
+				656FA2512A2595E7003541D1 /* ARBasketballTests.xctest */,
+				656FA25B2A2595E7003541D1 /* ARBasketballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		656FA2412A2595E6003541D1 /* ARBasketball */ = {
+			isa = PBXGroup;
+			children = (
+				656FA27E2A25974A003541D1 /* 3D Models */,
+				656FA26E2A25964C003541D1 /* Views */,
+				656FA2732A259688003541D1 /* Feature Targets */,
+				656FA27C2A2596F1003541D1 /* ARBasketballApp.swift */,
+				656FA2462A2595E6003541D1 /* Experience.rcproject */,
+				656FA2482A2595E7003541D1 /* Assets.xcassets */,
+				656FA24A2A2595E7003541D1 /* Preview Content */,
+			);
+			path = ARBasketball;
+			sourceTree = "<group>";
+		};
+		656FA24A2A2595E7003541D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				656FA24B2A2595E7003541D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		656FA2542A2595E7003541D1 /* ARBasketballTests */ = {
+			isa = PBXGroup;
+			children = (
+				656FA2552A2595E7003541D1 /* ARBasketballTests.swift */,
+			);
+			path = ARBasketballTests;
+			sourceTree = "<group>";
+		};
+		656FA25E2A2595E7003541D1 /* ARBasketballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				656FA25F2A2595E7003541D1 /* ARBasketballUITests.swift */,
+				656FA2612A2595E7003541D1 /* ARBasketballUITestsLaunchTests.swift */,
+			);
+			path = ARBasketballUITests;
+			sourceTree = "<group>";
+		};
+		656FA26E2A25964C003541D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				656FA2442A2595E6003541D1 /* ContentView.swift */,
+				656FA26F2A25965C003541D1 /* HomeView.swift */,
+				656FA2712A25966B003541D1 /* PlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		656FA2732A259688003541D1 /* Feature Targets */ = {
+			isa = PBXGroup;
+			children = (
+				656FA2742A259697003541D1 /* CustomARView.swift */,
+				656FA2762A2596A1003541D1 /* CustomARViewRepresentable.swift */,
+				656FA2782A2596A8003541D1 /* ARManager.swift */,
+				656FA27A2A2596AF003541D1 /* ARActions.swift */,
+			);
+			path = "Feature Targets";
+			sourceTree = "<group>";
+		};
+		656FA27E2A25974A003541D1 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				656FA27F2A259758003541D1 /* BasketHoop.usdz */,
+			);
+			path = "3D Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		656FA23E2A2595E6003541D1 /* ARBasketball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656FA2652A2595E7003541D1 /* Build configuration list for PBXNativeTarget "ARBasketball" */;
+			buildPhases = (
+				656FA23B2A2595E6003541D1 /* Sources */,
+				656FA23C2A2595E6003541D1 /* Frameworks */,
+				656FA23D2A2595E6003541D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARBasketball;
+			productName = ARBasketball;
+			productReference = 656FA23F2A2595E6003541D1 /* ARBasketball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		656FA2502A2595E7003541D1 /* ARBasketballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656FA2682A2595E7003541D1 /* Build configuration list for PBXNativeTarget "ARBasketballTests" */;
+			buildPhases = (
+				656FA24D2A2595E7003541D1 /* Sources */,
+				656FA24E2A2595E7003541D1 /* Frameworks */,
+				656FA24F2A2595E7003541D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656FA2532A2595E7003541D1 /* PBXTargetDependency */,
+			);
+			name = ARBasketballTests;
+			productName = ARBasketballTests;
+			productReference = 656FA2512A2595E7003541D1 /* ARBasketballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		656FA25A2A2595E7003541D1 /* ARBasketballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656FA26B2A2595E7003541D1 /* Build configuration list for PBXNativeTarget "ARBasketballUITests" */;
+			buildPhases = (
+				656FA2572A2595E7003541D1 /* Sources */,
+				656FA2582A2595E7003541D1 /* Frameworks */,
+				656FA2592A2595E7003541D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656FA25D2A2595E7003541D1 /* PBXTargetDependency */,
+			);
+			name = ARBasketballUITests;
+			productName = ARBasketballUITests;
+			productReference = 656FA25B2A2595E7003541D1 /* ARBasketballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		656FA2372A2595E6003541D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					656FA23E2A2595E6003541D1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					656FA2502A2595E7003541D1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 656FA23E2A2595E6003541D1;
+					};
+					656FA25A2A2595E7003541D1 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 656FA23E2A2595E6003541D1;
+					};
+				};
+			};
+			buildConfigurationList = 656FA23A2A2595E6003541D1 /* Build configuration list for PBXProject "ARBasketball" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 656FA2362A2595E6003541D1;
+			productRefGroup = 656FA2402A2595E6003541D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				656FA23E2A2595E6003541D1 /* ARBasketball */,
+				656FA2502A2595E7003541D1 /* ARBasketballTests */,
+				656FA25A2A2595E7003541D1 /* ARBasketballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		656FA23D2A2595E6003541D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656FA24C2A2595E7003541D1 /* Preview Assets.xcassets in Resources */,
+				656FA2492A2595E7003541D1 /* Assets.xcassets in Resources */,
+				656FA2802A259758003541D1 /* BasketHoop.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656FA24F2A2595E7003541D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656FA2592A2595E7003541D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		656FA23B2A2595E6003541D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656FA2792A2596A8003541D1 /* ARManager.swift in Sources */,
+				656FA27D2A2596F1003541D1 /* ARBasketballApp.swift in Sources */,
+				656FA2452A2595E6003541D1 /* ContentView.swift in Sources */,
+				656FA2702A25965C003541D1 /* HomeView.swift in Sources */,
+				656FA2722A25966B003541D1 /* PlayView.swift in Sources */,
+				656FA2752A259697003541D1 /* CustomARView.swift in Sources */,
+				656FA27B2A2596AF003541D1 /* ARActions.swift in Sources */,
+				656FA2472A2595E6003541D1 /* Experience.rcproject in Sources */,
+				656FA2772A2596A1003541D1 /* CustomARViewRepresentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656FA24D2A2595E7003541D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656FA2562A2595E7003541D1 /* ARBasketballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656FA2572A2595E7003541D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656FA2622A2595E7003541D1 /* ARBasketballUITestsLaunchTests.swift in Sources */,
+				656FA2602A2595E7003541D1 /* ARBasketballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		656FA2532A2595E7003541D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656FA23E2A2595E6003541D1 /* ARBasketball */;
+			targetProxy = 656FA2522A2595E7003541D1 /* PBXContainerItemProxy */;
+		};
+		656FA25D2A2595E7003541D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 656FA23E2A2595E6003541D1 /* ARBasketball */;
+			targetProxy = 656FA25C2A2595E7003541D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		656FA2632A2595E7003541D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		656FA2642A2595E7003541D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		656FA2662A2595E7003541D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARBasketball/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MCN5686MN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yugasamuel.ARBasketball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		656FA2672A2595E7003541D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARBasketball/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MCN5686MN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yugasamuel.ARBasketball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		656FA2692A2595E7003541D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MCN5686MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yugasamuel.ARBasketballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARBasketball.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARBasketball";
+			};
+			name = Debug;
+		};
+		656FA26A2A2595E7003541D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MCN5686MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yugasamuel.ARBasketballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARBasketball.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARBasketball";
+			};
+			name = Release;
+		};
+		656FA26C2A2595E7003541D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MCN5686MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yugasamuel.ARBasketballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARBasketball;
+			};
+			name = Debug;
+		};
+		656FA26D2A2595E7003541D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MCN5686MN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yugasamuel.ARBasketballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARBasketball;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		656FA23A2A2595E6003541D1 /* Build configuration list for PBXProject "ARBasketball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656FA2632A2595E7003541D1 /* Debug */,
+				656FA2642A2595E7003541D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656FA2652A2595E7003541D1 /* Build configuration list for PBXNativeTarget "ARBasketball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656FA2662A2595E7003541D1 /* Debug */,
+				656FA2672A2595E7003541D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656FA2682A2595E7003541D1 /* Build configuration list for PBXNativeTarget "ARBasketballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656FA2692A2595E7003541D1 /* Debug */,
+				656FA26A2A2595E7003541D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656FA26B2A2595E7003541D1 /* Build configuration list for PBXNativeTarget "ARBasketballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656FA26C2A2595E7003541D1 /* Debug */,
+				656FA26D2A2595E7003541D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 656FA2372A2595E6003541D1 /* Project object */;
+}
