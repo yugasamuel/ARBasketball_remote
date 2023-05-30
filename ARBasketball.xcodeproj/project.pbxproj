@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6530EFC32A259A770098BA21 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6530EFC22A259A770098BA21 /* Experience.rcproject */; };
 		656FA2452A2595E6003541D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2442A2595E6003541D1 /* ContentView.swift */; };
-		656FA2472A2595E6003541D1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2462A2595E6003541D1 /* Experience.rcproject */; };
 		656FA2492A2595E7003541D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656FA2482A2595E7003541D1 /* Assets.xcassets */; };
 		656FA24C2A2595E7003541D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656FA24B2A2595E7003541D1 /* Preview Assets.xcassets */; };
 		656FA2562A2595E7003541D1 /* ARBasketballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2552A2595E7003541D1 /* ARBasketballTests.swift */; };
@@ -42,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6530EFC22A259A770098BA21 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Experience.rcproject; path = "../../Practice/Ascend!/Ascend!/Experience.rcproject"; sourceTree = "<group>"; };
 		656FA23F2A2595E6003541D1 /* ARBasketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBasketball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FA2442A2595E6003541D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		656FA2462A2595E6003541D1 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		656FA2482A2595E7003541D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		656FA24B2A2595E7003541D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		656FA2512A2595E7003541D1 /* ARBasketballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARBasketballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +114,7 @@
 				656FA26E2A25964C003541D1 /* Views */,
 				656FA2732A259688003541D1 /* Feature Targets */,
 				656FA27C2A2596F1003541D1 /* ARBasketballApp.swift */,
-				656FA2462A2595E6003541D1 /* Experience.rcproject */,
+				6530EFC22A259A770098BA21 /* Experience.rcproject */,
 				656FA2482A2595E7003541D1 /* Assets.xcassets */,
 				656FA24A2A2595E7003541D1 /* Preview Content */,
 			);
@@ -312,8 +312,8 @@
 				656FA2702A25965C003541D1 /* HomeView.swift in Sources */,
 				656FA2722A25966B003541D1 /* PlayView.swift in Sources */,
 				656FA2752A259697003541D1 /* CustomARView.swift in Sources */,
+				6530EFC32A259A770098BA21 /* Experience.rcproject in Sources */,
 				656FA27B2A2596AF003541D1 /* ARActions.swift in Sources */,
-				656FA2472A2595E6003541D1 /* Experience.rcproject in Sources */,
 				656FA2772A2596A1003541D1 /* CustomARViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
