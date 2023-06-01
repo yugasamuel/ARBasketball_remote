@@ -12,7 +12,7 @@ import SwiftUI
 
 class CustomARView: ARView {
     
-    @ObservedObject var arManager = ARManager.shared
+    @ObservedObject var basketballManager = BasketballManager.shared
     
     required init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
@@ -31,15 +31,15 @@ class CustomARView: ARView {
         
         if firstEntity.name == "triggerEntity" && secondEntity.name == "basketballEntity" {
             print("Goal!")
-            arManager.totalGoals+=1
+            basketballManager.totalScore+=1
         }
     }
     
     convenience init() {
         self.init(frame: UIScreen.main.bounds)
         
-        //        let anchorEntity = try! Experience.loadScene()
-        //        scene.anchors.append(anchorEntity)
+//        let anchorEntity = try! Experience.loadScene()
+//        scene.anchors.append(anchorEntity)
         
         collisionSubscription = scene.publisher(for: CollisionEvents.Began.self,
                                                 on: nil).sink(receiveValue: onCollisionBegan)
@@ -48,7 +48,6 @@ class CustomARView: ARView {
         let box = MeshResource.generateBox(width: 0.4, height: 0.01, depth: 0.5)
         let material = SimpleMaterial(color: UIColor.clear, isMetallic: false)
         let triggerEntity = ModelEntity(mesh: box, materials: [material])
-        
         
         triggerEntity.collision = CollisionComponent(shapes: [.generateBox(width: 0.4, height: 0.01, depth: 0.5)], mode: .trigger, filter: .sensor)
         triggerEntity.name = "triggerEntity"
@@ -108,7 +107,7 @@ class CustomARView: ARView {
         scene.addAnchor(fifthAnchor)
         scene.addAnchor(sixthAnchor)
         
-        //        addCoaching()
+        addCoaching()
         subscribeToActionStream()
     }
     
@@ -142,13 +141,17 @@ class CustomARView: ARView {
         entity.physicsBody = PhysicsBodyComponent(massProperties: PhysicsMassProperties(mass: 0.65), material: .generate(friction: 0.4, restitution: 0.7), mode: .dynamic)
         entity.name = "basketballEntity"
         
-        // Create anchor entity
+//        entity.position = anchorEntity.position
+//
+//        anchorEntity.addChild(entity)
+        
+//         Create anchor entity
         let anchor = AnchorEntity(world: cameraTransform)
-        
+
         anchor.addChild(entity)
-        
+
         scene.addAnchor(anchor)
-        
+
         pushSphere(entity)
     }
     

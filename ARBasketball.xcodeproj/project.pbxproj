@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6530EFC32A259A770098BA21 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6530EFC22A259A770098BA21 /* Experience.rcproject */; };
+		6550005E2A288EE500E9B857 /* BasketballManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6550005D2A288EE500E9B857 /* BasketballManager.swift */; };
 		656FA2452A2595E6003541D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FA2442A2595E6003541D1 /* ContentView.swift */; };
 		656FA2492A2595E7003541D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656FA2482A2595E7003541D1 /* Assets.xcassets */; };
 		656FA24C2A2595E7003541D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656FA24B2A2595E7003541D1 /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		6530EFC22A259A770098BA21 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Experience.rcproject; path = "../../Practice/Ascend!/Ascend!/Experience.rcproject"; sourceTree = "<group>"; };
+		6550005D2A288EE500E9B857 /* BasketballManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballManager.swift; sourceTree = "<group>"; };
 		656FA23F2A2595E6003541D1 /* ARBasketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBasketball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		656FA2442A2595E6003541D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		656FA2482A2595E7003541D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			children = (
 				656FA2742A259697003541D1 /* CustomARView.swift */,
 				656FA2762A2596A1003541D1 /* CustomARViewRepresentable.swift */,
+				6550005D2A288EE500E9B857 /* BasketballManager.swift */,
 				656FA2782A2596A8003541D1 /* ARManager.swift */,
 				656FA27A2A2596AF003541D1 /* ARActions.swift */,
 			);
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6550005E2A288EE500E9B857 /* BasketballManager.swift in Sources */,
 				656FA2792A2596A8003541D1 /* ARManager.swift in Sources */,
 				656FA27D2A2596F1003541D1 /* ARBasketballApp.swift in Sources */,
 				656FA2452A2595E6003541D1 /* ContentView.swift in Sources */,

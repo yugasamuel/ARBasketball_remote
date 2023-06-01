@@ -10,9 +10,8 @@ import SwiftUI
 struct PlayView: View {
     
     @Binding var isPlaying: Bool
-    @State private var shoot: Int = 0
     
-    @ObservedObject var arManager = ARManager.shared
+    @ObservedObject var basketballManager = BasketballManager.shared
     
     var body: some View {
         ZStack {
@@ -21,8 +20,8 @@ struct PlayView: View {
             VStack {
                 Spacer()
                 Button(action: {
-                    shoot+=1
-                    arManager.actionStream.send(.shoot)
+                    basketballManager.totalShots+=1
+                    ARManager.shared.actionStream.send(.shoot)
                 }, label: {
                     Text("Shoot")
                         .font(.title2)
@@ -39,12 +38,12 @@ struct PlayView: View {
                 HStack {
                     VStack {
                         Text("Shots")
-                        Text("\(shoot)")
+                        Text("\(basketballManager.totalShots)")
                     }
                     Spacer()
                     VStack {
                         Text("Score")
-                        Text("\(arManager.totalGoals)")
+                        Text("\(basketballManager.totalScore)")
                     }
                 }
                 .font(.title2)

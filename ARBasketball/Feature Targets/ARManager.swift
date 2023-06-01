@@ -7,9 +7,7 @@
 
 import Combine
 
-class ARManager: ObservableObject {
-    @Published var totalGoals: Int = 0
-    
+class ARManager {
     static let shared = ARManager()
     private init() { }
     
